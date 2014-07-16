@@ -38,7 +38,7 @@ class RatingTestCase(unittest.TestCase):
         self.assertEquals(instance.rating.score, 4)
         self.assertEquals(instance.rating.votes, 2)
         
-        # Test users
+        # Test usersss
         user = User.objects.create(username=str(random.randint(0, 100000000)))
         user2 = User.objects.create(username=str(random.randint(0, 100000000)))
         
